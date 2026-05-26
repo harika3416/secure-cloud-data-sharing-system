@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Generate OTP for Mobile Number</title>
+<style>
+  body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Light background */
+  }
+
+  center {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #ffffff; /* White container */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker text */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+
+  button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  input[type="submit"]{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover{
+    text-decoration: none;
+  }
+
+  div {
+    width: 100%; /* Ensure div takes full width of center */
+  }
+
+</style>
+</head>
+<body>
+<center>
+<h1>Generate OTP for Mobile Number</h1><br><br>
+   <div>
+   <form action="Usergenerateotp">
+   Mobile :<input type="text" name="mobile" maxlength="10" minlength="10"><br><br>
+
+     <button>
+     <input type="submit" value="GenerateOtp">
+     </button>
+   </form>
+   </div>
+
+</center>
+
+</body>
+</html>
